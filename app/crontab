@@ -1,0 +1,2 @@
+* * * * * /usr/bin/php /app/run version >> /var/log/cron.log 2>&1
+* * * * * /usr/bin/php /app/run >> /var/log/cron.log 2>&1

@@ -2,8 +2,6 @@ version: "2"
 services:
   app:
     image: xuanthinh244/docker-phalcon-crontab
-    container_name: phalcon-schedular
+    container_name: open-phalcon-schedular
     volumes:
       - ./app:/app
-    ports:
-      - 20001:80
